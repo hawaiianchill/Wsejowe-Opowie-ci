@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1334112326811944238, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: m_text
-      value: "Dzie\u0144 3"
+      value: "Dzie\u0144 4"
       objectReference: {fileID: 0}
     - target: {fileID: 1378193514065325384, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: m_RootOrder
@@ -58,16 +58,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2837212688154713403, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: m_Name
-      value: Dzien3
+      value: Dzien4
       objectReference: {fileID: 0}
     - target: {fileID: 3794475275270753641, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: m_text
-      value: "Dzie\u0144 3"
+      value: "Dzie\u0144 4"
       objectReference: {fileID: 0}
     - target: {fileID: 4026555340894178106, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: kolejnyDzien
       value: 
-      objectReference: {fileID: 8988772820985163641, guid: 5deae5c75e4b8c84e99d035efa083ae4, type: 3}
+      objectReference: {fileID: 8988772820985163641, guid: 80bfc6c944e64fa4abc5d9e32db969e5, type: 3}
     - target: {fileID: 6540805059228635559, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
       propertyPath: children.Array.size
       value: 2
