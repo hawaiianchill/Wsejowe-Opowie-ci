@@ -64,8 +64,30 @@ PrefabInstance:
       propertyPath: m_text
       value: "Dzie\u0144 3"
       objectReference: {fileID: 0}
+    - target: {fileID: 6540805059228635559, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+      propertyPath: children.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6540805059228635559, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+      propertyPath: children.Array.data[0]
+      value: 
+      objectReference: {fileID: 5568092104923026959}
+    - target: {fileID: 6540805059228635559, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+      propertyPath: children.Array.data[1]
+      value: 
+      objectReference: {fileID: 6461864183265953011}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+--- !u!1 &5568092104923026959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1631590513677755469, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+  m_PrefabInstance: {fileID: 6620648423277261378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6461864183265953011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 165616778751506097, guid: 047b923ce524ca6448c82df32cf9fee4, type: 3}
+  m_PrefabInstance: {fileID: 6620648423277261378}
+  m_PrefabAsset: {fileID: 0}

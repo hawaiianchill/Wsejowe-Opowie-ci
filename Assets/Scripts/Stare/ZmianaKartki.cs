@@ -15,7 +15,7 @@ public class ZmianaKartki : MonoBehaviour
     private int ktoryScren = 1;
 
     public GameObject kolejnyDzien;
-    public Strzalka strz;
+    private Strzalka strz;
 
      private void Start()
      {
@@ -29,7 +29,10 @@ public class ZmianaKartki : MonoBehaviour
         
      }
 
-
+    private void Awake()
+    {
+        strz = FindObjectOfType<Strzalka>();
+    }
 
     private void zmianaStanu(GameObject t)
     {
@@ -48,7 +51,8 @@ public class ZmianaKartki : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(ktoryScren != ileEkranow)
+
+        if (ktoryScren != ileEkranow)
         {
             
 
